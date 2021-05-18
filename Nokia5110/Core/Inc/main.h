@@ -60,6 +60,14 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define BLUE_LED_Pin GPIO_PIN_13
 #define BLUE_LED_GPIO_Port GPIOC
+#define NOKIA_CS_Pin GPIO_PIN_12
+#define NOKIA_CS_GPIO_Port GPIOB
+#define NOKIA_SCK_Pin GPIO_PIN_13
+#define NOKIA_SCK_GPIO_Port GPIOB
+#define NOKIA_MOSI_Pin GPIO_PIN_15
+#define NOKIA_MOSI_GPIO_Port GPIOB
+#define NOKIA__RST_Pin GPIO_PIN_9
+#define NOKIA__RST_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
